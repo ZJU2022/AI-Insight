@@ -1,0 +1,14 @@
+# 多智能体协同代码生成项目依赖
+
+# LangChain核心库
+langchain>=0.2.7
+langchain-openai>=0.1.14
+langchain-community>=0.2.7
+
+# 环境变量管理
+python-dotenv>=1.0.1
+
+# 测试框架
+pytest>=7.4.0
+pytest-cov>=4.1.0  # 测试覆盖率
+

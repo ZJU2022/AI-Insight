@@ -1,0 +1,28 @@
+[project]
+name = "ai-insight"
+version = "0.1.0"
+description = "AI时代全栈开发学习与实践开源项目"
+authors = [
+  { name = "AI-Insight Contributors" }
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = [
+  "langchain>=0.2.7",
+  "langchain-openai>=0.1.14",
+  "langchain-community>=0.2.7",
+  "python-dotenv>=1.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "black>=24.3.0",
+  "ruff>=0.5.0",
+  "mypy>=1.9.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+

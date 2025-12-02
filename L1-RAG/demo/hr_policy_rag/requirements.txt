@@ -1,0 +1,19 @@
+# RAG项目依赖包
+
+# LangChain核心库
+langchain>=0.2.7
+langchain-openai>=0.1.14
+langchain-community>=0.2.7
+
+# 环境变量管理
+python-dotenv>=1.0.1
+
+# 文档处理
+pypdf>=3.17.0  # PDF文件处理
+
+# 向量数据库
+faiss-cpu>=1.7.4  # Facebook AI Similarity Search (CPU版本)
+
+# 可选：如果需要GPU加速，可以使用 faiss-gpu
+# faiss-gpu>=1.7.4
+

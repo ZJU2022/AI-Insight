@@ -47,11 +47,13 @@ pip-delete-this-directory.txt
 *.log
 logs/
 
-# 环境变量
+# 环境变量和配置文件（包含敏感信息）
 .env
 .env.local
 *.key
 *.pem
+**/config.py
+**/local.py
 
 # 临时文件
 *.tmp
